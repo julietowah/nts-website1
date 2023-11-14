@@ -53,7 +53,7 @@ const Form = () => {
     setShowAlert(true);
 
     // You may want to reset the form data after successful submission
-    setFormData({
+    setData({
       firstName: '',
       lastName: '',
       email: '',
@@ -65,7 +65,7 @@ const Form = () => {
   
   return (
 
-    <div class="flex items-center justify-center p-12 bg-gray-100 h-full" id='form' >
+    <div class="flex items-center justify-center p-4 bg-gray-100 h-full" id='form' >
 
       
       
@@ -75,13 +75,13 @@ const Form = () => {
      <h2 className='font-bold  md:text-7xlcdrop-shaddow-2xl py-10 text-3xl text-[#07074D]'>Register for the event</h2>
 
      {showAlert && (
-        <div className="alert alert-success m-6 shadow-lg shadow-blue-500/50 font-semibold p-2 rounded text-center" role="alert">
+        <div className="alert alert-success m-6 shadow-lg shadow-blue-500/50 font-semibold p-2 rounded text-center bg-green-500 text-white" role="alert">
           Your form was submitted successfully! 
           
         </div>
       )}
 
-<div class="max-w-2xl mx-auto bg-white p-16">
+<div class="max-w-2xl mx-auto bg-white p-5">
 
 	<form onSubmit={handleSubmit}> 
     <div class="grid gap-6 mb-6 lg:grid-cols-2 ">
@@ -98,7 +98,7 @@ const Form = () => {
         <div>
             <label for="phone" class="block mb-2 text-xl font-medium text-gray-900 dark:text-gray-300">Phone number</label>
             <input value={phoneNumber}
-  onChange={handleChange} name="phoneNumber" type="tel" id="phone" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="123-45-678" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" required />
+  onChange={handleChange} name="phoneNumber" type="tel" id="phone" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="08078554668" required />
         </div>
         <div>
             <label for="email" class="block mb-2 text-xl font-medium text-gray-900 dark:text-gray-300">Email</label>

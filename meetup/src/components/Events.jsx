@@ -10,8 +10,7 @@ const Events = () => {
       <div className='lg:top-20 relative lg:col-span-1 col-span-2'>
         <h3 className='text-2xl font-bold'>Tech unleased</h3>
         <p className='pt-4'>
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Error ipsam
-          rerum iusto excepturi similique minus?
+        In this dynamic environment, we invite you to be part of a collective journey where creativity meets cutting-edge technology. From thought-provoking keynotes to hands-on workshops, 'Empowering Tomorrow' is a platform where ideas flourish, connections deepen, and the seeds of tomorrow's technological breakthroughs are sown.
         </p>
         <div>
         {/* <a href="#form" class="hover:underline"><button className='bg-black text-white border-black hover:shadow-xl'>Register Now</button></a> */}
