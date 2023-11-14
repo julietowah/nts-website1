@@ -6,6 +6,7 @@ import Events from "./components/Events.jsx"
 import Gallary from "./components/Gallary.jsx"
 import Form from "./components/Form.jsx"
 import Footer from "./components/Footer.jsx"
+import BacktoTop from "./components/BacktoTop.jsx"
 
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
       <Gallary/>
       <Form/>
       <Footer/>
+      <BacktoTop/>
     </div>
   )
 }
