@@ -1,9 +1,12 @@
 import React from 'react'
-import { useState } from 'react';
-import { render } from '@react-email/render';
+import { useState,  useRef } from 'react';
+import emailjs from "@emailjs/browser";
+import { Link } from 'react-router-dom'
+
 
 
 const Form = () => {
+  // const form = useRef();
   const[data, setData] = useState({
     firstName: "",
     lastName: "",
@@ -41,6 +44,12 @@ const Form = () => {
   } catch (err) {
       console.log(err)
     }
+    // emailjs.sendForm('service_3xkrl1e', 'template_rnj4g7e', form.current, 'qaAIGNaj_bDYz6tqb')
+    //   .then((result) => {
+    //       console.log(result.text);
+    //   }, (error) => {
+    //       console.log(error.text);
+    //   });
     setShowAlert(true);
 
     // You may want to reset the form data after successful submission
@@ -62,11 +71,13 @@ const Form = () => {
       
       
     <div class="mx-auto w-full max-w-[550px]">
+    <Link to="/"><button className='bg-black text-white border-black hover:shadow-xl'>Back Home</button></Link>
      <h2 className='font-bold  md:text-7xlcdrop-shaddow-2xl py-10 text-3xl text-[#07074D]'>Register for the event</h2>
 
      {showAlert && (
         <div className="alert alert-success m-6 shadow-lg shadow-blue-500/50 font-semibold p-2 rounded text-center" role="alert">
-          Your form was submitted successfully!
+          Your form was submitted successfully! 
+          
         </div>
       )}
 
