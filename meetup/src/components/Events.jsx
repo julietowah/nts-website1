@@ -14,8 +14,8 @@ const Events = () => {
           rerum iusto excepturi similique minus?
         </p>
         <div>
-        <a href="#form" class="hover:underline"><button className='bg-black text-white border-black hover:shadow-xl'>Register Now</button></a>
-        {/* <Link to="/form"><button className='bg-black text-white border-black hover:shadow-xl'>Register Now</button></Link> */}
+        {/* <a href="#form" class="hover:underline"><button className='bg-black text-white border-black hover:shadow-xl'>Register Now</button></a> */}
+        <Link to="/form"><button className='bg-black text-white border-black hover:shadow-xl'>Register Now</button></Link>
         </div>
       </div>
 
