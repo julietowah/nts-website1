@@ -1,12 +1,12 @@
 import React from 'react'
-import background from "../assets/background.avif"
+import background from "../assets/background.jpeg"
 import { Link } from 'react-router-dom';
 
 const Hero = () => {
   return (
     <div className='w-full h-screen'>
         <img className="top-0 left-0 w-full h-screen object-cover" src={background}/>
-        <div className='bg-black/50 absolute top-0 left-0 w-full h-screen'/>
+        <div className='bg-black/80 absolute top-0 left-0 w-full h-screen'/>
         <div className='absolute top-0 w-full h-full flex flex-col justify-center text-white'>
             <div className='md:left-[10%] max-w-[1100px] m-auto absolute p-4'>
                 <p>Welcome to</p>
