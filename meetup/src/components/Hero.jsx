@@ -12,8 +12,8 @@ const Hero = () => {
         <div className='absolute top-0 w-full h-full flex flex-col justify-center text-white'>
             <div className='md:left-[10%] max-w-[1100px] m-auto absolute p-4'>
                 <p className='animate__animated animate__zoomIn font-normal'>Welcome to</p>
-                <h1 className='font-bold text-5xl md:text-7xl cdrop-shaddow-2xl font-serif animate__animated animate__zoomIn'>Awka tech meetup community</h1>
-                <p className='max-w-[600px] drop-shadow-2xl py-2 text-xl font-serif animate__animated animate__zoomIn'>Join us for an electrifying blend of tech talks,
+                <h1 className='font-bold text-5xl md:text-7xlc drop-shaddow-2xl font-serif animate__animated animate__zoomIn'>Awka tech meetup community</h1>
+                <p className='max-w-[600px] drop-shadow-2xl py-2 text-2xl font-serif animate__animated animate__zoomIn'>Join us for an electrifying blend of tech talks,
                      networking, and cutting-edge insights.
                       Connect with industry pioneers, dive 
                       into immersive workshops, and spark the next wave of innovation. Let's shape the future together! 

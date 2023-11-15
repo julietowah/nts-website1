@@ -19,18 +19,18 @@ const Events = () => {
         </div>
       </div>
 
-      <div className='grid grid-cols-2 col-span-2 gap-2'>
+      <div className='grid grid-cols-2 col-span-2 gap-2 '>
         <img
-        className='object-cover w-full h-full'
+        className='object-cover w-full h-full rounded-xl'
           src={events2}
           alt='/'
         />
         <img
-        className='row-span-2 object-cover w-full h-full'
+        className='row-span-2 object-cover w-full h-full rounded-xl'
           src={events3}
         />
         <img
-        className='object-cover w-full h-full'
+        className='object-cover w-full h-full rounded-xl'
           src={events1}
           alt='/'
         />
