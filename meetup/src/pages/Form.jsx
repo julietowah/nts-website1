@@ -59,7 +59,7 @@ const Form = () => {
       to_name: firstName,
       message: "welcome to Tech unleased 2023 Join us as we redefine the boundaries of innovation and shape the digital frontier together. The future is waiting, and at 'Empowering Tomorrow,' we're not just witnessing it we're crafting it",
     };
-    emailjs.send('service_3xkrl1e', 'template_rnj4g7e', templateParams, 'qaAIGNaj_bDYz6tqb')
+    emailjs.send('service_un45q22', 'template_rnj4g7e', templateParams, 'qaAIGNaj_bDYz6tqb')
       .then((result) => {
           console.log(result.text);
       }, (error) => {

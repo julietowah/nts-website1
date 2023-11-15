@@ -18,7 +18,7 @@ const Hero = () => {
                       Connect with industry pioneers, dive 
                       into immersive workshops, and spark the next wave of innovation. Let's shape the future together! 
                     </p>
-                     <Link to="/form"><button className='bg-white text-black animate__animated animate__zoomIn'>Register Now</button></Link> 
+                     <Link to="/form"><button className='bg-white text-black animate__animated animate__zoomIn w-64 text-lg font-semibold'>Register Now</button></Link> 
                     {/* <a href="#form" class="hover:underline"><button className='bg-white text-black'>Register Now</button></a> */}
           
 
