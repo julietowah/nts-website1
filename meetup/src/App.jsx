@@ -13,10 +13,14 @@ function App() {
   
   return (
     <div>
+      
       <Navbar/>
       <Hero />
+      <div className=" bg-slate-50">
       <Tagline/>
+      
       <About/>
+      </div>
       <Events/>
       <Gallary/>
       <Footer/>

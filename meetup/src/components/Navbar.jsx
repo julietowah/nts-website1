@@ -10,9 +10,9 @@ const Navbar = () => {
   
     const [toggle, setToggle] = useState(false);
     return (
-      <nav className='w-full flex p-6 pt-10 justify-between items-center navbar absolute sm: pl-7' >
+      <nav className='w-full flex p-6 pt-10 justify-between items-center navbar absolute sm: pl-7 md:ml-20' >
         <img src= { logo } alt='logo' 
-        className='w-[100px] h-[50px] z-20'/>
+        className='w-[100px] h-[50px] z-20 '/>
         <ul className='list-none sm:flex hidden justify-center items-center flex-1 text-white z-20'>
         <li className='font-normal text-2xl p-8'>
            <a href='/'>Home</a></li>

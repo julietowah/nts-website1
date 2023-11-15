@@ -7,11 +7,11 @@ import img5 from "../assets/img5.jpg"
 
 const About = () => {
   return (
-    <div className='max-w-[1400px] m-auto py-16 px-4 grid lg:grid-cols-2 gap-4' id='about'>
+    <div className='max-w-[1400px] m-auto py-16 px-4 grid lg:grid-cols-2 gap-4 shadow-lg shadow-indigo-500/50 ' id='about'>
       {/* Left Side */}
-      <div className='grid grid-cols-2 grid-rows-6 h-[80vh]'>
+      <div className='grid grid-cols-2 grid-rows-6 h-[80vh] '>
         <img
-          className='row-span-3 object-cover w-full h-full p-2'
+          className='row-span-3 object-cover w-full h-full p-2 slide-in-up'
           src={img1}
           alt='/'
         />

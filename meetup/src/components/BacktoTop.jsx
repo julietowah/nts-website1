@@ -31,7 +31,7 @@ const BacktoTop = () => {
         height:'50px',
         width: '50px',
         fontSize:"50px" 
-        }}/>
+        }} className='animate-bounce'/>
     )}
     </div>
     
