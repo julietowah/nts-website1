@@ -16,7 +16,7 @@ function App() {
       
       <Navbar/>
       <Hero />
-      <div className=" bg-slate-50">
+      <div className=" bg-slate-100">
       <Tagline/>
       
       <About/>

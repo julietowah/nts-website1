@@ -53,6 +53,7 @@ const Form = () => {
       console.log(err)
     }
     const templateParams ={
+      to_email:email,
       from_name: "atm Awka",
       from_email: email,
       to_name: firstName,

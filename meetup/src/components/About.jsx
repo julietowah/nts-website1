@@ -3,48 +3,50 @@ import img1 from "../assets/img1.jpeg"
 import img2 from "../assets/img2.jpeg"
 import img3 from "../assets/img3.jpeg"
 import img4 from "../assets/img4.jpg"
-import img5 from "../assets/img5.jpg"
+import img5 from "../assets/img5.jpeg"
+import 'tailwindcss/tailwind.css'
+import 'animate.css/animate.min.css';
 
 const About = () => {
   return (
     <div className='max-w-[1400px] m-auto py-16 px-4 grid lg:grid-cols-2 gap-4 shadow-lg shadow-indigo-500/50 ' id='about'>
       {/* Left Side */}
-      <div className='grid grid-cols-2 grid-rows-6 h-[80vh] '>
+      <div className='grid grid-cols-2 grid-rows-6 h-[80vh]  '>
         <img
-          className='row-span-3 object-cover w-full h-full p-2 slide-in-up'
+          className='row-span-3 object-cover w-full h-full p-2 slide-in-up animate__animated animate__fadeInUp'
           src={img1}
           alt='/'
         />
         <img
-          className='row-span-2 object-cover w-full h-full p-2'
+          className='row-span-2 object-cover w-full h-full p-2 animate__animated animate__fadeInUp'
           src={img2}
           alt='/'
         />
         <img
-          className='row-span-2 object-cover w-full h-full p-2'
+          className='row-span-2 object-cover w-full h-full p-2 animate__animated animate__fadeInUp'
           src={img3}
           alt='/'
         />
         <img
-          className='row-span-3 object-cover w-full h-full p-2'
+          className='row-span-3 object-cover w-full h-full p-2 animate__animated animate__fadeInUp'
           src={img4}
           alt='/'
         />
         <img
-          className='row-span-2 object-cover w-full h-full p-2'
+          className='row-span-2 object-cover w-full h-full p-2 animate__animated animate__fadeInUp'
           src={img5}
           alt='/'
         />
       </div>
       {/* Right Side */}
       <div className='flex flex-col h-full justify-center'>
-        <h3 className='text-5xl md:text-6xl font-bold'>Awka tech community</h3>
-        <p className='text-2xl py-6'>
+        <h3 className='text-5xl md:text-6xl font-bold font-serif'>Awka tech community</h3>
+        <p className='text-2xl py-6 font-serif text-justify'>
         Our tech community is a vibrant ecosystem where enthusiasts, professionals,
          and visionaries converge to shape the future. With a passion for technology that knows no bounds, we foster 
         an environment that thrives on collaboration, learning, and exploration.
         </p>
-        <p className='pb-6'>
+        <p className='pb-6  text-2xl font-serif text-justify'>
         From coding novices to seasoned experts, our diverse community celebrates 
         inclusivity and knowledge 
         sharing. Engage in thought-provoking discussions, attend dynamic workshops, 

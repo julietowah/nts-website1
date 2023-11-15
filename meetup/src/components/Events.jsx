@@ -8,10 +8,11 @@ const Events = () => {
   return (
     <div className='max-w-[1400px] h-[500px] bg-blue-100 mx-auto my-20 pt-16 lg:mb-[20%] md:mb-[35%] px-4 grid lg:grid-cols-3 gap-4 shadow-lg shadow-indigo-500/50' id='events'>
       <div className='lg:top-20 relative lg:col-span-1 col-span-2'>
-        <h3 className='text-2xl font-bold'>Tech unleased</h3>
-        <p className='pt-4'>
-        In this dynamic environment, we invite you to be part of a collective journey where creativity meets cutting-edge technology. From thought-provoking keynotes to hands-on workshops, 'Empowering Tomorrow' is a platform where ideas flourish, connections deepen, and the seeds of tomorrow's technological breakthroughs are sown.
+        <h2 className='text-3xl font-bold  font-serif'>Tech unleashed</h2>
+        <p className='pt-4 text-xl font-serif'>
+        In this dynamic environment, we invite you to be part of a collective journey where creativity meets cutting-edge technology. From thought-provoking keynotes to hands-on workshops.
         </p>
+        <h3 className='font-bold p-2'>Date: 24th Nov 2023 <br/> Venue: </h3>
         <div>
         {/* <a href="#form" class="hover:underline"><button className='bg-black text-white border-black hover:shadow-xl'>Register Now</button></a> */}
         <Link to="/form"><button className='bg-black text-white border-black hover:shadow-xl'>Register Now</button></Link>
