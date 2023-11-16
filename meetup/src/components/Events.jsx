@@ -10,7 +10,7 @@ const Events = () => {
       <div className='lg:top-20 relative lg:col-span-1 col-span-2'>
         <h2 className='text-6xl font-bold  font-serif bg-gradient-to-r from-indigo-500'>Tech unleashed</h2>
         <p className='pt-4 text-2xl font-serif'>
-        In this dynamic environment, we invite you to be part of a collective journey where creativity meets cutting-edge technology. From thought-provoking keynotes to hands-on workshops.
+        In this dynamic environment, we invite you to be part of a collective journey where creativity meets cutting-edge technology.
         </p>
         <h3 className='font-bold p-2'>Date: 24th Nov 2023 <br/> Venue:Software Factory,science village unizik Awka </h3>
         <div>

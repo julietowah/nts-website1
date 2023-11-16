@@ -2,6 +2,7 @@ import React from 'react'
 import { useState,  useRef } from 'react';
 import emailjs from "@emailjs/browser";
 import { Link } from 'react-router-dom'
+import {qrCodeSvg} from "react-qr-code"
 
 
 
@@ -21,6 +22,8 @@ const Form = () => {
 
     
   });
+  
+  const [qrCode, setQrCode] = useState("")
   const [name, SetName] = useState("")
     const [message, setMessage] = useState("")
   const [showAlert, setShowAlert] = useState(false);
@@ -31,6 +34,7 @@ const Form = () => {
 
   const handleSubmit = async(e) => {
     e.preventDefault();
+    
     // const serviceId = "service_3xkrl1e";
     // const templateId = "template_rnj4g7e";
     // const publicKey = "qaAIGNaj_bDYz6tqb";
@@ -58,6 +62,7 @@ const Form = () => {
       from_email: email,
       to_name: firstName,
       message: "welcome to Tech unleased 2023 Join us as we redefine the boundaries of innovation and shape the digital frontier together. The future is waiting, and at 'Empowering Tomorrow,' we're not just witnessing it we're crafting it",
+  
     };
     emailjs.send('service_un45q22', 'template_rnj4g7e', templateParams, 'qaAIGNaj_bDYz6tqb')
       .then((result) => {
